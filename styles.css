@@ -1,0 +1,45 @@
+body{
+   
+    background-color: #fe8b00;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr
+                            min(65ch, 100%)
+                            1fr;
+    width: 70%;
+    margin: 0 auto;
+    background-color: #fa9d83;
+    border-radius: 20px;
+    margin-top: 50px;
+
+}
+.heading{
+    font-size: 4em;
+  line-height: 1.1em;
+  margin: 1em 1.9em 1em;
+  font-weight: 800;
+  letter-spacing: -.022em;
+  font-weight: 900;
+  }
+.links{
+    width:50%;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+#link-a{
+    display: block;
+    margin-top: 0.5em;
+    background-color: #397c09;
+  color: white;
+  padding: 1em 5.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 20px;
+}
+#photo{
+    width: 100%;
+    height:180px;
+    grid-column: 2 / 4;
+}
